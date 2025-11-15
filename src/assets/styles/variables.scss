@@ -1,0 +1,48 @@
+// CSS变量 - 水墨画风格配色
+
+:root {
+  // 主色调
+  --color-ink-black: #1a1a1a;
+  --color-light-ink: #4a4a4a;
+  --color-paper-white: #f5f5f0;
+  --color-light-gray: #e0e0e0;
+
+  // 辅助色
+  --color-cinnabar-red: #c9302c;
+  --color-celadon-green: #7fb685;
+  --color-glaze-blue: #5b8db8;
+  --color-gold: #b8936f;
+
+  // 五行色
+  --color-wuxing-jin: #b8936f; // 金
+  --color-wuxing-mu: #7fb685; // 木
+  --color-wuxing-shui: #5b8db8; // 水
+  --color-wuxing-huo: #c9302c; // 火
+  --color-wuxing-tu: #a89070; // 土
+
+  // 字体
+  --font-title: 'STKaiti', 'KaiTi', serif;
+  --font-body: 'PingFang SC', 'Microsoft YaHei', sans-serif;
+
+  // 间距
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+
+  // 圆角
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+
+  // 阴影
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.08);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.12);
+
+  // 过渡
+  --transition-fast: 0.2s ease;
+  --transition-normal: 0.3s ease;
+  --transition-slow: 0.5s ease;
+}
